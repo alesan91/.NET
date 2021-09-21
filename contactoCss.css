@@ -1,0 +1,21 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+h2{
+    color: rgb(3, 0, 1);
+    text-align: center;
+}
+header{
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px rgb(27, 7, 117);
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    color: black;
+}
+.comentario{
+    color: blueviolet;
+}

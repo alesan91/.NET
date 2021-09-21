@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactoCss.css">
+</head>
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+        <h2>Completa este formulario si deseas hablar con un representante de ventas</h2>
+        <nav>
+            <ul>
+                <li> <a href="emprendimiento.html">Inicio</a> </li>
+                <li><a href="contacto.html">contacto</a> </li>
+            </ul>
+        </nav>
+     </header>
+<form action="gracias.html" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id:="nombre"><br><br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email"><br><br>
+    <label for="telefono">Teléfono:</label>
+    <input type="number" id="telefono"><br><br>
+    <label for="pais">Pais:</label>
+    <select name="pais" id="pais">
+        <option value="">Argentina</option>
+        <option value="">Chile</option>
+        <option value="">Bolivia</option>
+        <option value="">Paraguay</option>
+        <option value="">Perú</option>
+        <option value="">Colombia</option>
+        <option value="">Venezuela</option>
+        <option value="">Brasil</option>
+        <option value="">Ecuador</option>
+    </select><br><br>
+    <label class="comentario" for="">Comentario</label><br>
+    <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea> <br><br>
+    <input type="checkbox">He leído y acepto el tratamiento de mis datos de acuerdo con lo establecido en la Política de Privacidad.
+    Este campo es obligatorio. <br><br>
+    <input type="submit" value="ENVIAR">
+    
+
+
+
+</form>
+</body>
+</html>
